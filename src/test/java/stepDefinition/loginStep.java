@@ -10,10 +10,8 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.Assert;
 import pages.HomePage;
 import pages.SigninPage;
-
 import static org.junit.Assert.*;
 import java.io.FileInputStream;
 import java.io.IOException;
