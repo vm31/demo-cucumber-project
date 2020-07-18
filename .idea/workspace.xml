@@ -172,6 +172,7 @@
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/jquery-3.4.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/report.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +188,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1eqlrjPIWURGEIt6188bLfAc4BY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -294,5 +296,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1306" height="181" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595069104652" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1595072693226">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595072693226" />
   </component>
 </project>
