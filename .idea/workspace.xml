@@ -19,37 +19,6 @@
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWB5RKX.com/cleartripnew1.com.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWPBZT6/NewMavenProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RYHRBO0/MyNewProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helper/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SigninPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/loginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/helper/Utility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/SigninPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/baseTest/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/loginStep.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/testRunner/runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnCucumber.project/learnCucumber.project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/modules.xml" afterDir="false" />
@@ -217,7 +186,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eqlrjPIWURGEIt6188bLfAc4BY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
