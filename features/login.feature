@@ -1,13 +1,15 @@
 Feature:Positive flow test cases
   Background:
-    Given i open home page "https://admin-demo.nopcommerce.com/login"
+    Given I open home page "https://admin-demo.nopcommerce.com/login"
     Then  verify amazon home display
-  Scenario Outline:Successful login with valid credentials
-    Then i enter email address as "<email>" and password as "<password>"
-    Given i click on login
-    Then page title should be "Dashboard / nopCommerce administration"
-    When i click on logout link
-    Then page title should be "Your store. Login"
+
+  Scenario Outline:Successful logout
+    Given I enter email address:  "<EMAIL>" and password: "<PASSWORD>"
+    Given I click on login button
+    Then I verify if page title is "Dashboard / nopCommerce administration"
+    When I click on logout link
+    #Then I verify if page title is "Your store. Login"
+    Then I am on login page
     Examples:
-      |email  |password|
+      |EMAIL  |PASSWORD|
       |admin@yourstore.com|admin|

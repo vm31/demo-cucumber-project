@@ -10,6 +10,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Assert;
 import pages.HomePage;
 import pages.SigninPage;
 import static org.junit.Assert.*;
@@ -23,7 +24,7 @@ public class loginStep extends BaseTest {
         configprop = new Properties();
         FileInputStream configPropfile = new FileInputStream("data.properties");
         configprop.load(configPropfile);
-        logger= Logger.getLogger("letsCucumber");//added logger
+        logger= Logger.getLogger("demo-project");//added logger
         PropertyConfigurator.configure("log4j.properties");
 
         String br = configprop.getProperty("BROWSER");
@@ -43,7 +44,7 @@ public class loginStep extends BaseTest {
         }
 
     }
-    @Given("i open home page {string}")
+    @Given("I open home page {string}")
     public void i_open_home_page(String url) {
         logger.info("*****opening url****");
         driver.get(url);
@@ -54,13 +55,13 @@ public class loginStep extends BaseTest {
 
     @Then("verify amazon home display")
     public void verify_amazon_home_display() {
-        //Assert.assertTrue(homePage.homePageText());
-        assertTrue(homePage.homePageText());
+        Assert.assertTrue(homePage.homePageText());
+
 
         System.out.println(homePage.homePageText());
     }
 
-    @Then("i enter email address as {string} and password as {string}")
+    @Given("I enter email address:  {string} and password: {string}")
     public void i_enter_email_address_as_and_password_as(String email, String pwd) {
 
         signInPage.enterEmailId(email);
@@ -68,21 +69,21 @@ public class loginStep extends BaseTest {
 
     }
 
-    @Given("i click on login")
+    @Given("I click on login button")
     public void i_click_on_login() {
         signInPage.ClickLogin();
     }
 
-    @Then("page title should be {string}")
+    @Then("I verify if page title is {string}")
     public void page_title_should_be(String title) {
-        //Assert.assertEquals(title, driver.getTitle());
-        assertEquals(title, driver.getTitle());
+        Assert.assertEquals(title, driver.getTitle());
+
 
 
 
     }
 
-    @When("i click on logout link")
+    @When("I click on logout link")
     public void i_click_on_logout_link() {
         signInPage.clickLogOut();
     }
@@ -94,4 +95,11 @@ public class loginStep extends BaseTest {
         driver.quit();
     }
 
+
+    @Then("I am on login page")
+    public void iAmOnLoginPage() {
+        Assert.assertEquals("Your store. Login", driver.getTitle());
+
+
+    }
 }

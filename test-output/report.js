@@ -5,28 +5,28 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "name": "Successful login with valid credentials",
+  "name": "Successful logout",
   "description": "",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "i enter email address as \"\u003cemail\u003e\" and password as \"\u003cpassword\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "i click on login",
+  "name": "I enter email address:  \"\u003cEMAIL\u003e\" and password: \"\u003cPASSWORD\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "page title should be \"Dashboard / nopCommerce administration\"",
+  "name": "I click on login button",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I verify if page title is \"Dashboard / nopCommerce administration\"",
   "keyword": "Then "
 });
 formatter.step({
-  "name": "i click on logout link",
+  "name": "I click on logout link",
   "keyword": "When "
 });
 formatter.step({
-  "name": "page title should be \"Your store. Login\"",
+  "name": "I am on login page",
   "keyword": "Then "
 });
 formatter.examples({
@@ -36,8 +36,8 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "email",
-        "password"
+        "EMAIL",
+        "PASSWORD"
       ]
     },
     {
@@ -57,7 +57,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "i open home page \"https://admin-demo.nopcommerce.com/login\"",
+  "name": "I open home page \"https://admin-demo.nopcommerce.com/login\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -77,13 +77,13 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Successful login with valid credentials",
+  "name": "Successful logout",
   "description": "",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "i enter email address as \"admin@yourstore.com\" and password as \"admin\"",
-  "keyword": "Then "
+  "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
+  "keyword": "Given "
 });
 formatter.match({
   "location": "loginStep.i_enter_email_address_as_and_password_as(String,String)"
@@ -92,7 +92,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "i click on login",
+  "name": "I click on login button",
   "keyword": "Given "
 });
 formatter.match({
@@ -102,7 +102,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "page title should be \"Dashboard / nopCommerce administration\"",
+  "name": "I verify if page title is \"Dashboard / nopCommerce administration\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -112,7 +112,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "i click on logout link",
+  "name": "I click on logout link",
   "keyword": "When "
 });
 formatter.match({
@@ -122,11 +122,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "page title should be \"Your store. Login\"",
+  "name": "I am on login page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "loginStep.page_title_should_be(String)"
+  "location": "loginStep.iAmOnLoginPage()"
 });
 formatter.result({
   "status": "passed"
