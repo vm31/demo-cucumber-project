@@ -18,7 +18,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class loginStep extends BaseTest {
+public class Steps extends BaseTest {
     @Before
     public void setup() throws IOException {
         configprop = new Properties();
@@ -56,8 +56,6 @@ public class loginStep extends BaseTest {
     @Then("verify amazon home display")
     public void verify_amazon_home_display() {
         Assert.assertTrue(homePage.homePageText());
-
-
         System.out.println(homePage.homePageText());
     }
 
@@ -76,7 +74,14 @@ public class loginStep extends BaseTest {
 
     @Then("I verify if page title is {string}")
     public void page_title_should_be(String title) {
-        Assert.assertEquals(title, driver.getTitle());
+        if(driver.getPageSource().contains("Login was successful."))
+        {
+            driver.close();
+            Assert.assertTrue(false);
+        }
+        else {
+            Assert.assertEquals(title,driver.getTitle());
+        }
 
 
 
@@ -98,8 +103,39 @@ public class loginStep extends BaseTest {
 
     @Then("I am on login page")
     public void iAmOnLoginPage() {
-        Assert.assertEquals("Your store. Login", driver.getTitle());
+        Assert.assertEquals("Your store. Login",driver.getTitle());
 
 
+    }
+    //steps for Edit Name in Best sellers by Quality table
+
+    @Then("I verify table header is displayed")
+    public void iVerifyTableHeaderIsDisplayed() {
+         Assert.assertTrue(signInPage.verifyTableHeaderDisplayed());
+    }
+
+    @When("I click on view button")
+    public void iClickOnViewButton() {
+        if(signInPage.verifyTableHeaderDisplayed()){
+            System.out.println("view button is displayed");
+        }
+        else{
+            signInPage.clickPlusBtn();
+        }
+        signInPage.clickViewBtn();
+    }
+
+    @Then("I edit product name")
+    public void iEditProductName() {
+        signInPage.getProductName();
+        signInPage.clearProductName();
+        signInPage.addStringToProductName();
+        
+    }
+
+    @Then("I click on Save Button")
+    public void iClickOnSaveButton() {
+        signInPage.ClickSave();
+        signInPage.checkSuccessFul_Msg();
     }
 }

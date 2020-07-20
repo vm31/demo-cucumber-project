@@ -13,3 +13,20 @@ Feature:Positive flow test cases
     Examples:
       |EMAIL  |PASSWORD|
       |admin@yourstore.com|admin|
+
+
+  Scenario Outline:Edit Name in Best sellers by Quality table
+    Given I enter email address:  "<EMAIL>" and password: "<PASSWORD>"
+    Given I click on login button
+    Then I verify if page title is "Dashboard / nopCommerce administration"
+    Then I verify table header is displayed
+    When I click on view button
+    Then I verify if page title is "Edit product details / nopCommerce administration"
+    Then I edit product name
+    Then I click on Save Button
+
+
+
+    Examples:
+      |EMAIL  |PASSWORD|
+      |admin@yourstore.com|admin|

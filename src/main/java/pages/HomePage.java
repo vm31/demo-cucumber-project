@@ -17,13 +17,17 @@ public class HomePage {
 
 
 
+
     @FindBy(xpath = "//div[@class=\"page-title\"]//h1[contains( text(),\"Admin area demo\")]")
     @CacheLookup
     WebElement HomePageText;
 
 
     public boolean homePageText(){
+
         return HomePageText.isDisplayed();
     }
-
+     public void getPageTitle(){
+        ldriver.getTitle();
+    }
 }
