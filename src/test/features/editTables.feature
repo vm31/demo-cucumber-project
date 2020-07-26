@@ -1,6 +1,5 @@
 Feature: Edit tables
   Background:
-    Given I launch url "https://admin-demo.nopcommerce.com/login"
     Then  verify amazon home display
     Given I enter email address:  "admin@yourstore.com" and password: "admin"
     When I click on login button

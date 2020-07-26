@@ -1,7 +1,7 @@
 Feature: Catalog menu button
   Background:
     Given user is on signin page
-    Then  I verify title is: ""
+    Then I verify "" is displayed
     When I enter email address:  "admin@yourstore.com" and password: "admin"
     And I click on login button
     Then I verify

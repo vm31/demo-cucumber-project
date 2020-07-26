@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/catalog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/catalog.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/editTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/editTables.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/BrowserActionStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/BrowserActionStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/DashboardPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/DashboardPageStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/ProductsSearchPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/ProductsSearchPageStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +129,7 @@
       <module name="demo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testRunner.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +144,7 @@
       <module name="demo-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testRunner.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,7 +1,6 @@
 package stepDefinition;
 
-import baseTest.BaseTest;
-import cucumber.api.java.en.And;
+import base.BaseTest;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.Point;

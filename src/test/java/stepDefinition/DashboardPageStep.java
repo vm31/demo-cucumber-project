@@ -1,6 +1,6 @@
 package stepDefinition;
 
-import baseTest.BaseTest;
+import base.BaseTest;
 
 public class DashboardPageStep extends BaseTest {
 }

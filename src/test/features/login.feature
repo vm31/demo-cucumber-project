@@ -1,6 +1,5 @@
 Feature:Positive flow test cases
   Background:
-    Given I launch url "https://admin-demo.nopcommerce.com/login"
     Then  verify amazon home display
 
   Scenario Outline:Successful logout

@@ -1,6 +1,6 @@
 package stepDefinition;
 
-import baseTest.BaseTest;
+import base.BaseTest;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
