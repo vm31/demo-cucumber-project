@@ -12,13 +12,13 @@ public class SignInPage {
     WebDriver driver;
 
     @FindBy(xpath = "//input[@id='Email']")
-    WebElement EmailBox;
+    WebElement emailBox;
 
     @FindBy(xpath = "//input[@id='Password']")
-    WebElement PwdBox;
+    WebElement pwdBox;
 
     @FindBy(xpath = "//input[@class='button-1 login-button']")
-    WebElement LogInBtn;
+    WebElement logInBtn;
 
     @FindBy(xpath = "//a[@href=\"/logout\"]")
     WebElement logoutBtn;
@@ -28,9 +28,6 @@ public class SignInPage {
 
     @FindBy(xpath = "//*[@id=\"bestsellers-report-quantity-box\"]//i[@class=\"fa fa-plus\"]")
     WebElement plusButton;
-
-    @FindBy(xpath = "//*[@id=\"bestsellers-byquantity-grid\"]//a[@href=(\"/Admin/Product/Edit/17\")]")
-    WebElement viewButton;
 
     @FindBy(xpath = "//*[@id=\"Name\"]")
     WebElement productNameBox;
@@ -48,17 +45,17 @@ public class SignInPage {
 
     //action methods for successful login
     public void enterEmailId(String em) {
-        EmailBox.clear();
-        EmailBox.sendKeys(em);
+        emailBox.clear();
+        emailBox.sendKeys(em);
     }
 
     public void enterPassword(String pw) {
-        PwdBox.clear();
-        PwdBox.sendKeys(pw);
+        pwdBox.clear();
+        pwdBox.sendKeys(pw);
     }
 
     public void ClickLogin() {
-        LogInBtn.click();
+        logInBtn.click();
     }
 
     public void clickLogOut() {
@@ -69,14 +66,6 @@ public class SignInPage {
     public boolean verifyTableHeaderDisplayed() {
         return tableHeader.isDisplayed();
 
-    }
-
-    public void clickViewBtn() {
-        viewButton.click();
-    }
-
-    public boolean verifyViewBtnDisplayed() {
-        return viewButton.isDisplayed();
     }
 
     public void clickPlusBtn() {
@@ -107,10 +96,8 @@ public class SignInPage {
         return updateSuccessMSg.getText();
 
 
-
-
     }
-    public void Dashboard(){
+    public void ckickDashboardBtn(){
         dashboardBtn.click();
 
     }

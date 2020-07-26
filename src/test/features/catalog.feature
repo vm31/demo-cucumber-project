@@ -1,9 +1,10 @@
 Feature: Catalog menu button
   Background:
-    Given I launch url "https://admin-demo.nopcommerce.com/login"
-    Then  verify amazon home display
-    Given I enter email address:  "admin@yourstore.com" and password: "admin"
-    When I click on login button
+    Given user is on signin page
+    Then  I verify title is: ""
+    When I enter email address:  "admin@yourstore.com" and password: "admin"
+    And I click on login button
+    Then I verify
 
   Scenario: product search by category_select_item_from_drop_down
     When I click on catalog menu item

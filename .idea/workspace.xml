@@ -11,17 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/BrowserActionStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/DashboardPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SigninPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/driverActions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/driverActions.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/catalog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/catalog.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,11 +236,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1595166076704" />
-    <state x="67" y="27" width="797" height="1053" key="find.popup" timestamp="1595792300094">
+    <state x="67" y="27" width="797" height="1053" key="find.popup" timestamp="1595793073978">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="0" y="0" width="587" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1595679699100" />
-    <state x="67" y="27" width="797" height="1053" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1595792300094" />
+    <state x="67" y="27" width="797" height="1053" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1595793073978" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1595415084275">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
