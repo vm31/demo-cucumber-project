@@ -26,14 +26,25 @@ public class Utility {
         this.setDriver(driver);
     }
 
+//
+//    public void  getProp() throws IOException {
+//        configprop = new Properties();
+//        FileInputStream configPropfile = new FileInputStream("data.properties");
+//        configprop.load(configPropfile);
+//        String br = configprop.getProperty("BROWSER");
+//    }
 
-    public void  getProp() throws IOException {
-        configprop = new Properties();
-        FileInputStream configPropfile = new FileInputStream("data.properties");
-        configprop.load(configPropfile);
-        String br = configprop.getProperty("BROWSER");
+    public String getProp(String propertyName) {
+        String propertyValue = null;
+        try {
+            Properties prop = new Properties();
+            prop.load(getClass().getClassLoader().getResourceAsStream("data.properties"));
+            propertyValue = prop.getProperty(propertyName);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return propertyValue;
     }
-
 
 
 

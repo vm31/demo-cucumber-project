@@ -16,7 +16,7 @@ public class ProductSearchPage {
 
     }
 
-    @FindBy(xpath = "//ul[@class=\"sidebar-menu tree\"]/li//i[@class=\"fa fa-book\"]")
+    @FindBy(xpath = "//ul[@class='sidebar-menu tree']/li//i[@class='fa fa-book']")
     WebElement catalogDropDown;
 
     @FindBy(xpath = "//ul[@class=\"treeview-menu\"]/li//a[@href='/Admin/Product/List']")

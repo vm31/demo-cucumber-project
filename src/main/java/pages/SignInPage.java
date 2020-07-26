@@ -7,16 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import sun.font.TrueTypeFont;
 
-public class SigninPage {
+public class SignInPage {
 
-    public WebDriver ldriver;
-
-    public SigninPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
-
-    }
-
+    WebDriver driver;
 
     @FindBy(xpath = "//input[@id='Email']")
     WebElement EmailBox;
@@ -29,8 +22,6 @@ public class SigninPage {
 
     @FindBy(xpath = "//a[@href=\"/logout\"]")
     WebElement logoutBtn;
-
-    //elements for Edit Name in Best sellers by Quality table scenario
 
     @FindBy(xpath = "//*[@id=\"bestsellers-report-quantity-box\"]/div[1]/h3")
     WebElement tableHeader;
@@ -119,19 +110,12 @@ public class SigninPage {
 
 
     }
-    public String getCurrentUrl(){
-        String url=ldriver.getCurrentUrl();
-        return url;
-
-
-    }
     public void Dashboard(){
         dashboardBtn.click();
 
     }
     public void iClickViewBtn(int rowNumber){
-        //*[@id='bestsellers-byquantity-grid']//a[@href=('/Admin/Product/Edit/"+16+"')]
-        WebElement viewBtn=ldriver.findElement(By.xpath("//*[@id='bestsellers-byquantity-grid']//a[@href=('/Admin/Product/Edit/"+rowNumber+"')]"));
+        WebElement viewBtn=driver.findElement(By.xpath("//*[@id='bestsellers-byquantity-grid']//a[@href=('/Admin/Product/Edit/"+rowNumber+"')]"));
         viewBtn.click();
     }
 
