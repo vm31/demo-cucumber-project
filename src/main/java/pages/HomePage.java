@@ -19,7 +19,7 @@ public class HomePage {
 
 
     @FindBy(xpath = "//div[@class=\"page-title\"]//h1[contains( text(),\"Admin area demo\")]")
-    @CacheLookup
+
     WebElement HomePageText;
 
 

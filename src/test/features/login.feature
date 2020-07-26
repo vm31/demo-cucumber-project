@@ -1,6 +1,6 @@
 Feature:Positive flow test cases
   Background:
-    Given I open home page "https://admin-demo.nopcommerce.com/login"
+    Given I launch url "https://admin-demo.nopcommerce.com/login"
     Then  verify amazon home display
 
   Scenario Outline:Successful logout
@@ -15,18 +15,6 @@ Feature:Positive flow test cases
       |admin@yourstore.com|admin|
 
 
-  Scenario Outline:Edit Name in Best sellers by Quality table
-    Given I enter email address:  "<EMAIL>" and password: "<PASSWORD>"
-    Given I click on login button
-    Then I verify if page title is "Dashboard / nopCommerce administration"
-    Then I verify table header is displayed
-    When I click on view button
-    Then I verify if page title is "Edit product details / nopCommerce administration"
-    Then I edit product name
-    Then I click on Save Button
 
 
 
-    Examples:
-      |EMAIL  |PASSWORD|
-      |admin@yourstore.com|admin|

@@ -1,3 +1,2 @@
 baseTest\BaseTest.class
-stepDefinition\loginStep.class
 testRunner\runner.class
