@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -71,21 +72,19 @@ public class ProductSearchPage {
         searchProduct.click();
     }
 
-    public String clickOptionByName(String name) {
-        for (WebElement sample : options) {
-            if (sample.getText().equals(name)) {
-                sample.click();
-
-            }
+    public String getOptions() {
+        List<WebElement> opts = ldriver.findElements(By.xpath("//select[@id='SearchCategoryId']/option"));
+        int sizeOfOpts = opts.size();
+        String optName="";
+        System.out.println("size of the dropdown list:" + sizeOfOpts);
+        for (int i = 0; i < opts.size(); i++) {
+            optName= opts.get(i).getText();
+            //Something like ddlList.length(); but not able to work upon it.
 
         }
-        return name;
+        return optName;
 
     }
-
-
-
-
 
 
 

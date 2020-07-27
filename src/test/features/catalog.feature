@@ -10,6 +10,6 @@ Feature: Catalog menu button
     Then I click on products button
     Then I verify page title is :"Products / nopCommerce administration" and "Products" is displayed
     Then I enter product name "apple"
-    Then I click drop down in category and select item:"computers"
-    And I click on search button
+    Then I check drop down options
+#    And I click on search button
 

@@ -214,11 +214,11 @@ public class Steps extends BaseTest {
 
     }
 
-    @Then("I click drop down in category and select item:{string}")
-    public void iClickDropDownInCategoryAndSelectItem(String cName) {
+    @And("I check drop down options")
+    public void iClickDropDownInCategoryAndSelectItem() {
         productSearchPage.clickSearchCatagory();
         utility.waitForElement(2000);
-        productSearchPage.clickOptionByName(cName);
+        productSearchPage.getOptions();
 
     }
 
