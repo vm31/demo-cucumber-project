@@ -23,11 +23,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify amazon home display",
+  "name": "I verify home page display",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.verify_amazon_home_display()"
+  "location": "Steps.verify_home_page_display()"
 });
 formatter.result({
   "status": "passed"
@@ -98,7 +98,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click drop down in category and select item:\"computers\"",
+  "name": "I click drop down in category and select item:\"Computers \u003e\u003e Desktops\"",
   "keyword": "Then "
 });
 formatter.match({

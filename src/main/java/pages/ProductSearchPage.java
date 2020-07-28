@@ -1,9 +1,13 @@
 package pages;
 
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
 
 import java.util.List;
 
@@ -28,16 +32,8 @@ public class ProductSearchPage {
     @FindBy(id = "SearchProductName")
     WebElement productNameBox;
 
-    @FindBy(id = "SearchCategoryId")
-    WebElement searchCategoryIDropDown;
-
     @FindBy(id = "search-products")
     WebElement searchProduct;
-
-    @FindBy(xpath = "//select[@id='SearchCategoryId']")
-    List<WebElement> options;
-
-    //List<WebElements> optionLinks = driver.findElements(By.cssSelector(commonOptionPath));
 
 
     //actions methods
@@ -62,27 +58,34 @@ public class ProductSearchPage {
         productNameBox.sendKeys(pName);
     }
 
-    public void clickSearchCatagory() {
-        searchCategoryIDropDown.click();
-
-    }
 
     public void clickSearch() {
         searchProduct.click();
     }
 
-    public String clickOptionByName(String name) {
-        for (WebElement sample : options) {
-            if (sample.getText().equals(name)) {
-                sample.click();
-
-            }
+    public String getOptions() {
+        List<WebElement> opts = ldriver.findElements(By.xpath("//select[@id='SearchCategoryId']/option"));
+        String optName="";
+        int sizeOfOpts = opts.size();
+        System.out.println(sizeOfOpts);
+        for (int i = 0; i < opts.size(); i++) {
+            optName= opts.get(i).getText();
+            System.out.println(optName);
+            //System.out.println("Element Num " + i + " is " + opts.get(i).getText());
 
         }
-        return name;
-
+        return optName;
     }
-
+    public void clickOnOption(String pName){
+        WebElement mySelectElm = ldriver.findElement(By.xpath("//select[@id='SearchCategoryId']"));
+        Select mySelect= new Select(mySelectElm);
+        List<WebElement> options = mySelect.getOptions();
+        for (WebElement pOption : options) {
+            if (pOption.getText().equalsIgnoreCase(pName)){
+                pOption.click();
+            }
+        }
+    }
 
 
 

@@ -2,26 +2,59 @@ package baseTest;
 
 import helper.Utility;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.PageFactory;
+import pages.EditTablesPage;
 import pages.HomePage;
 import pages.ProductSearchPage;
 import pages.SigninPage;
+import java.util.concurrent.TimeUnit;
 
-import java.io.FileInputStream;
+
 import java.util.Properties;
 
 public class BaseTest {
-    public HomePage homePage;
-    public SigninPage signInPage;
+    protected HomePage homePage;
+    protected SigninPage signInPage;
     public Utility utility;
     public static Logger logger;
     public Properties configprop;
-    public WebDriver driver;
-    public ProductSearchPage productSearchPage;
+    public static final WebDriver driver;
+    protected ProductSearchPage productSearchPage;
+    protected EditTablesPage editTablesPage;
+
+
+    static {
+
+        System.setProperty("webdriver.chrome.driver","E://demo-project//libraries//chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("https://admin-demo.nopcommerce.com/login");
+
+        Runnable r = new Runnable() {
+
+            @Override
+            public void run() {
+                if (driver != null) {
+                    driver.quit();
+                }
+            }
+        };
+        Runtime.getRuntime().addShutdownHook(new Thread(r));
+
+    }
+
+    
+
+    public BaseTest() {
+        homePage= PageFactory.initElements(driver,HomePage.class);
+        signInPage= PageFactory.initElements(driver,SigninPage.class);
+        productSearchPage=PageFactory.initElements(driver, ProductSearchPage.class);
+        utility=PageFactory.initElements(driver, Utility.class);
+        editTablesPage=PageFactory.initElements(driver, EditTablesPage.class);
+    }
 
 
 }
