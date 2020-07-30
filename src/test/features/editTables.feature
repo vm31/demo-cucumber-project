@@ -7,7 +7,7 @@ Feature: Edit tables
     When I navigate to dashboard
     Then I verify if page title is: "Dashboard / nopCommerce administration"
     Then I verify table Bestsellers by quantity is displayed
-    And I click on view button:17
+    And I click on view button:<rownumber>
     Then I verify if page title is: "Edit product details / nopCommerce administration"
     And I edit product name "<myinput>"
     And I click on Save Button

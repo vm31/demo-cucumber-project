@@ -54,5 +54,8 @@ public class switchStep extends BaseTest {
         Assert.assertTrue(headerName.contains(pdtName));
     }
 
+    @Given ("I edit productName")
+    public void editProductName
+
 
 }
