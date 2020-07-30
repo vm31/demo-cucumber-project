@@ -12,11 +12,10 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class ProductSearchPage {
-    public WebDriver ldriver;
+    public WebDriver driver;
 
-    public ProductSearchPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
+    public ProductSearchPage(WebDriver driver) {
+        this.driver = driver;
 
     }
 
@@ -64,7 +63,7 @@ public class ProductSearchPage {
     }
 
     public String getOptions() {
-        List<WebElement> opts = ldriver.findElements(By.xpath("//select[@id='SearchCategoryId']/option"));
+        List<WebElement> opts = driver.findElements(By.xpath("//select[@id='SearchCategoryId']/option"));
         String optName="";
         int sizeOfOpts = opts.size();
         System.out.println(sizeOfOpts);
@@ -77,7 +76,7 @@ public class ProductSearchPage {
         return optName;
     }
     public void clickOnOption(String pName){
-        WebElement mySelectElm = ldriver.findElement(By.xpath("//select[@id='SearchCategoryId']"));
+        WebElement mySelectElm = driver.findElement(By.xpath("//select[@id='SearchCategoryId']"));
         Select mySelect= new Select(mySelectElm);
         List<WebElement> options = mySelect.getOptions();
         for (WebElement pOption : options) {
