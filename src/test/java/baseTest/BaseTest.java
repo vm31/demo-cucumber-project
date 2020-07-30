@@ -5,10 +5,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import pages.EditTablesPage;
-import pages.HomePage;
-import pages.ProductSearchPage;
-import pages.SigninPage;
+import pages.*;
+
 import java.util.concurrent.TimeUnit;
 
 
@@ -18,11 +16,16 @@ public class BaseTest {
     protected HomePage homePage;
     protected SigninPage signInPage;
     public Utility utility;
-    public static Logger logger;
-    public Properties configprop;
+    //public static Logger logger;
+   // public Properties configprop;
     public static final WebDriver driver;
     protected ProductSearchPage productSearchPage;
     protected EditTablesPage editTablesPage;
+    protected SwitchPage switchPage;
+
+
+
+
 
 
     static {
@@ -54,6 +57,7 @@ public class BaseTest {
         productSearchPage=PageFactory.initElements(driver, ProductSearchPage.class);
         utility=PageFactory.initElements(driver, Utility.class);
         editTablesPage=PageFactory.initElements(driver, EditTablesPage.class);
+        switchPage=PageFactory.initElements(driver, SwitchPage.class);
     }
 
 

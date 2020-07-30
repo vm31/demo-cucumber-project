@@ -1,123 +1,121 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/features/catalog.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/features/Switch.feature");
 formatter.feature({
-  "name": "Catalog menu button",
+  "name": "dashboard Common statistics",
   "description": "",
   "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Switching through dashboard Common statistics",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I navigate to dashboard",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I verify if page title is: \"Dashboard / nopCommerce administration\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I verify if common statistics title is displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I select box:\"Pending return requests\" and verify page title is:\"\u003ctitle1\u003e\",\"\u003ctitle2\u003e\",\"\u003ctitle3\u003e\"\"\u003ctitle14\u003e\"",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "title1",
+        "title2",
+        "title3",
+        "title14"
+      ]
+    },
+    {
+      "cells": [
+        "Orders / nopCommerce administration",
+        "Return requests / nopCommerce administration",
+        "Customers / nopCommerce administration",
+        "Low stock / nopCommerce administration"
+      ]
+    }
+  ]
 });
 formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
 });
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I launch url \"https://admin-demo.nopcommerce.com/login\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Steps.i_open_home_page(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I verify home page display",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.verify_home_page_display()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
   "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_enter_email_address_as_and_password_as(String,String)"
+  "location": "loginStep.i_enter_email_address_as_and_password_as(String,String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
   "name": "I click on login button",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.match({
-  "location": "Steps.i_click_on_login()"
+  "location": "loginStep.i_click_on_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "product search by category_select_item_from_drop_down",
+  "name": "Switching through dashboard Common statistics",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "I click on catalog menu item",
+  "name": "I navigate to dashboard",
   "keyword": "When "
 });
 formatter.match({
-  "location": "Steps.iClickOnCatalogMenuItem()"
+  "location": "EditStep.iNavigateToDashboard()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on products button",
+  "name": "I verify if page title is: \"Dashboard / nopCommerce administration\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.iClickOnProductsButton()"
+  "location": "loginStep.page_title_should_be(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I verify page title is :\"Products / nopCommerce administration\" and \"Products\" is displayed",
+  "name": "I verify if common statistics title is displayed",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.iVerifyPageTitleIsAndIsDisplayed(String,String)"
+  "location": "switchStep.i_verify_if_common_statistics_title_is_displayed()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter product name \"apple\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.iEnterProductName(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click drop down in category and select item:\"Computers \u003e\u003e Desktops\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.iClickDropDownInCategoryAndSelectItem(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on search button",
+  "name": "I select box:\"Pending return requests\" and verify page title is:\"Orders / nopCommerce administration\",\"Return requests / nopCommerce administration\",\"Customers / nopCommerce administration\"\"Low stock / nopCommerce administration\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Steps.iClickOnSearchButton()"
+  "location": "switchStep.iSelectBoxAndVerifyPageTitleIs(String,String,String,String,String)"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
   "status": "passed"
 });
 });

@@ -15,3 +15,8 @@ Feature: Edit tables
     Examples:
       |myinput  |rownumber|
       |mango|17|
+
+
+  Scenario Outline:
+  Examples:
+    |  |

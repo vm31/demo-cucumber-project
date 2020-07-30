@@ -2,10 +2,10 @@ Feature: driver actions
 
   Scenario:verify back button
     When I click on back button
-    Then I verify
+    Then I verify title of page
   Scenario: verify forward button
     When I click on forward button
-    Then I verify
+    Then I verify title of page
   Scenario: verify maximize button
     When I click on maximize button
     Then I verify

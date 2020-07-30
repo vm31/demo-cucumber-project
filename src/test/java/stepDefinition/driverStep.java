@@ -15,6 +15,7 @@ public class driverStep {
 
     }
 
+
     @Then("I click on forward button")
     public void iClickOnForwardButton() {
         driver.navigate().forward();
