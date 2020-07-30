@@ -44,7 +44,7 @@ public class switchStep extends BaseTest {
 
     }
 
-    @Given("i test switch")
+    @Given("i test switch with rowNumber: (int)")
     public void iTestSwitch(int rowNumber) {
         String pdtName = bestsellersByQuantityPage.getProdutName1(rowNumber);
         String headerName = bestsellersByQuantityPage.getEditProductHeader(rowNumber);
