@@ -58,4 +58,8 @@ public class EditStep extends BaseTest {
 
 
 
+    @And("I select product :{string},click on view button and verify text displayed")
+    public void iSelectProductClickOnViewButtonAndVerifyTextDisplayed(String pName) {
+
+    }
 }

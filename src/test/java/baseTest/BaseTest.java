@@ -22,6 +22,8 @@ public class BaseTest {
     protected ProductSearchPage productSearchPage;
     protected EditTablesPage editTablesPage;
     protected SwitchPage switchPage;
+    protected BestsellersByQuantityPage bestsellersByQuantityPage;
+
 
 
 
@@ -58,6 +60,7 @@ public class BaseTest {
         utility=PageFactory.initElements(driver, Utility.class);
         editTablesPage=PageFactory.initElements(driver, EditTablesPage.class);
         switchPage=PageFactory.initElements(driver, SwitchPage.class);
+        bestsellersByQuantityPage=PageFactory.initElements(driver, BestsellersByQuantityPage.class);
     }
 
 

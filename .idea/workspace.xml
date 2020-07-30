@@ -180,6 +180,7 @@
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/report.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/test/features/driverActions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/driverActions.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/editTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/editTables.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
@@ -190,6 +191,14 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/driverStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/driverStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EditTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EditTablesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SwitchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SwitchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/editTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/editTables.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/EditStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/EditStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/switchStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/switchStep.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,22 +391,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="429" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1595677679884" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1596038105182">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1596115697160">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596038105182" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1596038105181">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596115697160" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1596115697160">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596038105181" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1596038105181">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596115697160" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1596115697160">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596038105181" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1596038105182">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596115697160" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1596115697160">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596038105182" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596115697160" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1596038105183">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -32,6 +32,9 @@ public class SwitchPage {
 
 
 
+
+
+
     public boolean verifyCommonStatsHeader(){
         return commonStatsHeader.isDisplayed();
     }

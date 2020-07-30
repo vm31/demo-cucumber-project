@@ -18,5 +18,9 @@ Feature: Edit tables
 
 
   Scenario Outline:
+    When I navigate to dashboard
+    Then I verify if page title is: "Dashboard / nopCommerce administration"
+    Then I verify table Bestsellers by quantity is displayed
+    And I select product :"Apple iCam",click on view button and verify text displayed
   Examples:
     |  |

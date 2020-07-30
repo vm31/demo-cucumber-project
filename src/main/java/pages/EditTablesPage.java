@@ -33,6 +33,9 @@ public class EditTablesPage {
     WebElement updateSuccessMSg;
 
 
+
+
+
     //Action commands for Edit Name in Best sellers by Quality table scenario
 
     public boolean verifyTableHeaderDisplayed() {
