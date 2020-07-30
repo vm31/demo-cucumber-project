@@ -16,8 +16,6 @@ public class BaseTest {
     protected HomePage homePage;
     protected SigninPage signInPage;
     public Utility utility;
-    //public static Logger logger;
-   // public Properties configprop;
     public static final WebDriver driver;
     protected ProductSearchPage productSearchPage;
     protected EditTablesPage editTablesPage;
