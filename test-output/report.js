@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/features/Switch.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/features/DashboardEdit.feature");
 formatter.feature({
   "name": "dashboard Common statistics",
   "description": "",
@@ -23,6 +23,10 @@ formatter.step({
 });
 formatter.step({
   "name": "I select box:\"Pending return requests\" and verify page title is:\"\u003ctitle1\u003e\",\"\u003ctitle2\u003e\",\"\u003ctitle3\u003e\"\"\u003ctitle14\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on logout link",
   "keyword": "And "
 });
 formatter.examples({
@@ -54,11 +58,21 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.step({
-  "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
+  "name": "user is on login page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "loginStep.i_enter_email_address_as_and_password_as(String,String)"
+  "location": "LoginStep.userIsOnLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginStep.i_enter_email_address_as_and_password_as(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -68,7 +82,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "loginStep.i_click_on_login()"
+  "location": "LoginStep.i_click_on_login()"
 });
 formatter.result({
   "status": "passed"
@@ -83,7 +97,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "EditStep.iNavigateToDashboard()"
+  "location": "DashboardEditStep.iNavigateToDashboard()"
 });
 formatter.result({
   "status": "passed"
@@ -93,7 +107,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "loginStep.page_title_should_be(String)"
+  "location": "LoginStep.page_title_should_be(String)"
 });
 formatter.result({
   "status": "passed"
@@ -103,7 +117,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "switchStep.i_verify_if_common_statistics_title_is_displayed()"
+  "location": "DashboardEditStep.i_verify_if_common_statistics_title_is_displayed()"
 });
 formatter.result({
   "status": "passed"
@@ -113,7 +127,97 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "switchStep.iSelectBoxAndVerifyPageTitleIs(String,String,String,String,String)"
+  "location": "DashboardEditStep.iSelectBoxAndVerifyPageTitleIs(String,String,String,String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on logout link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginStep.i_click_on_logout_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user is on login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStep.userIsOnLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginStep.i_enter_email_address_as_and_password_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginStep.i_click_on_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Switching through best seller by Quantity products",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "I navigate to dashboard",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DashboardEditStep.iNavigateToDashboard()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify if page title is: \"Dashboard / nopCommerce administration\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStep.page_title_should_be(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify table Bestsellers by quantity is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DashboardEditStep.iVerifyTableHeaderIsDisplayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on view button:16 and verify page display header with product name",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DashboardEditStep.iClickOnViewButtonAndVerifyPageDisplayHeaderWithProductName(int)"
 });
 formatter.result({
   "status": "passed"

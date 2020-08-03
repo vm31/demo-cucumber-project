@@ -7,13 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class EditTablesPage {
-    public WebDriver ldriver;
+    public WebDriver driver;
 
-    public EditTablesPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
-
-    }
+    public EditTablesPage(WebDriver driver) {
+        this.driver = driver;}
 
 //elements for Edit Name in Best sellers by Quality table scenario
 
@@ -70,13 +67,13 @@ public class EditTablesPage {
 
     }
     public String getCurrentUrl(){
-        String url=ldriver.getCurrentUrl();
+        String url=driver.getCurrentUrl();
         return url;
 
 
     }
     public void iClickViewBtn(int rowNumber){
-        WebElement viewBtn=ldriver.findElement(By.xpath("//*[@id='bestsellers-byquantity-grid']//a[@href=('/Admin/Product/Edit/"+rowNumber+"')]"));
+        WebElement viewBtn=driver.findElement(By.xpath("//*[@id='bestsellers-byquantity-grid']//a[@href=('/Admin/Product/Edit/"+rowNumber+"')]"));
         viewBtn.click();
     }
 }
