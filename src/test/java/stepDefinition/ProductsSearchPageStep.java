@@ -16,7 +16,6 @@ public class ProductsSearchPageStep extends BaseTest {
     @Then("I click drop down in category and select item:{string}")
     public void iClickDropDownInCategoryAndSelectItem(String cName) {
         productSearchPageObj.clickSearchCatagory();
-        util.waitForElement(1000);
         productSearchPageObj.clickOptionByName(cName);
 
     }
@@ -24,12 +23,11 @@ public class ProductsSearchPageStep extends BaseTest {
     @And("I click on search button")
     public void iClickOnSearchButton() {
         productSearchPageObj.clickSearch();
-        util.waitForElement(1000);
     }
 
     @Then("I click on products button")
     public void iClickOnProductsButton() {
-        util.waitForElement(2000);
+
         productSearchPageObj.clickOnProducts();
     }
 
@@ -45,7 +43,6 @@ public class ProductsSearchPageStep extends BaseTest {
     //steps for Scenario: product search by category_select_item_from_drop_down
     @When("I click on catalog menu item")
     public void iClickOnCatalogMenuItem() {
-        util.waitForElement(3000);
         productSearchPageObj.clickCatalog();
     }
 
