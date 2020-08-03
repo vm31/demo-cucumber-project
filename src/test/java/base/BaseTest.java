@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.DashboardPage;
+import pages.LoggedInUserCommon;
 import pages.SignInPage;
 
 import java.util.concurrent.TimeUnit;
@@ -12,6 +13,7 @@ public class BaseTest {
     private static final WebDriver driver;
     protected DashboardPage dashboardPageObj;
     protected SignInPage signInPageObj;
+    protected LoggedInUserCommon loggedInUserCommonObj;
 
     static {
         driver = new ChromeDriver();
@@ -34,6 +36,7 @@ public class BaseTest {
     public BaseTest() {
         dashboardPageObj= PageFactory.initElements(driver,DashboardPage.class);
         signInPageObj= PageFactory.initElements(driver,SignInPage.class);
+        loggedInUserCommonObj= PageFactory.initElements(driver,LoggedInUserCommon.class);
     }
 
 }

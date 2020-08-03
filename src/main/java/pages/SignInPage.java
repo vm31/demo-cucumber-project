@@ -107,4 +107,7 @@ public class SignInPage {
     }
 
 
+    public boolean isDisplayed() {
+        return emailBox.isDisplayed();
+    }
 }

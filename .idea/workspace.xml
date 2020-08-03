@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,16 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInUserCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/SigninPageStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/catalog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/catalog.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/editTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/editTables.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/BrowserActionStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/BrowserActionStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/DashboardPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/DashboardPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/ProductsSearchPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/ProductsSearchPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +165,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
