@@ -48,15 +48,21 @@ public class LoginStep extends BaseTest {
 
 
     @Given("user is on login page")
-    public void userIsOnLoginPage() {
-        if (loginPage.isLoginPageDisplayed()){
-            loginPage.getLoginPageDisplayMsg();
-            System.out.println(loginPage.getLoginPageDisplayMsg());
-            System.out.println("user is on signIn page");
-        }else {
-            loggedInUserCommonPage.isLogoutBtnDisplayed();
+//    public void userIsOnLoginPage() {
+//        if (loginPage.isLoginPageDisplayed()){
+//            loginPage.getLoginPageDisplayMsg();
+//            System.out.println(loginPage.getLoginPageDisplayMsg());
+//            System.out.println("user is on signIn page");
+//        }else {
+//            loggedInUserCommonPage.isLogoutBtnDisplayed();
+//            loggedInUserCommonPage.clickLogOut();
+//            System.out.println("user is already inside and can see logout button");
+//        }
+    public void navigateLoginPage(){
+        if(loginPage.isLoginPageDisplayed()){
+
+        }else{
             loggedInUserCommonPage.clickLogOut();
-            System.out.println("user is already inside and can see logout button");
         }
 
     }
