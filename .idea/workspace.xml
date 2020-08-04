@@ -14,11 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInUserCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/SigninPageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/catalog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/catalog.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/CommonActionsStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/SigninPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/SigninPageStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,25 @@
       <recent name="E:\demo-project" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: catalog (1)">
+    <configuration name="Feature: catalog (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/catalog.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber-project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: catalog" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: catalog" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/catalog.feature" />
@@ -123,21 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testRunner" />
-      <option name="MAIN_CLASS_NAME" value="testRunner.runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="runner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-project" />
       <extension name="coverage">
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: catalog (1)" />
         <item itemvalue="TestNG.runner" />
         <item itemvalue="Cucumber Java.Feature: catalog" />
         <item itemvalue="Cucumber Java.Feature: editTables" />
         <item itemvalue="Cucumber Java.Feature: driverActions" />
-        <item itemvalue="JUnit.runner" />
       </list>
     </recent_temporary>
   </component>
