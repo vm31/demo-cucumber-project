@@ -31,6 +31,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //launch url should not have anything after ".com"
         driver.get("https://admin-demo.nopcommerce.com");
 
         Runnable r = new Runnable() {
