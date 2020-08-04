@@ -34,7 +34,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +73,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Switching through dashboard Common statistics">
-    <configuration name="Feature: DashboardEdit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: DashboardEdit (1)">
+    <configuration name="Feature: DashboardEdit (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="demo-project" />
+      <module name="demo-cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: DashboardEdit" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -88,14 +93,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Switch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: DashboardEdit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/Switch.feature" />
-      <option name="GLUE" value="stepDefinition" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="demo-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Switch" />
+      <option name="SUGGESTED_NAME" value="Feature: DashboardEdit" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: DashboardEdit (1)" />
         <item itemvalue="Cucumber Java.Scenario: Switching through dashboard Common statistics" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: DashboardEdit" />
-        <item itemvalue="Cucumber Java.Feature: Switch" />
       </list>
     </recent_temporary>
   </component>
@@ -204,46 +209,46 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1596363519948" />
-    <state width="903" height="343" key="GridCell.Tab.0.bottom" timestamp="1596566832246">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1596567546914">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="903" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832246" />
-    <state width="903" height="343" key="GridCell.Tab.0.center" timestamp="1596566832245">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546914" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1596567546913">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="903" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832245" />
-    <state width="903" height="343" key="GridCell.Tab.0.left" timestamp="1596566832244">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546913" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1596567546913">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="903" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832244" />
-    <state width="903" height="343" key="GridCell.Tab.0.right" timestamp="1596566832246">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546913" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1596567546914">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="903" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832246" />
-    <state width="903" height="343" key="GridCell.Tab.1.bottom" timestamp="1596566832248">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546914" />
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom" timestamp="1596567470614">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="903" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832248" />
-    <state width="903" height="343" key="GridCell.Tab.1.center" timestamp="1596566832247">
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470614" />
+    <state width="1807" height="343" key="GridCell.Tab.1.center" timestamp="1596567470613">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="903" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832247" />
-    <state width="903" height="343" key="GridCell.Tab.1.left" timestamp="1596566832247">
+    <state width="1807" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
+    <state width="1807" height="343" key="GridCell.Tab.1.left" timestamp="1596567470613">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="903" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832247" />
-    <state width="903" height="343" key="GridCell.Tab.1.right" timestamp="1596566832248">
+    <state width="1807" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
+    <state width="1807" height="343" key="GridCell.Tab.1.right" timestamp="1596567470613">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="903" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596566832248" />
+    <state width="1807" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
     <state x="624" y="313" width="728" height="478" key="MultipleFileMergeDialog" timestamp="1596566576639">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -278,10 +283,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/steps/LoginStep.java</url>
-          <line>61</line>
+          <line>62</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="pages.LoggedInUserCommonPage" memberName="logoutBtn" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

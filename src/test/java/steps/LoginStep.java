@@ -58,12 +58,22 @@ public class LoginStep extends BaseTest {
 //            loggedInUserCommonPage.clickLogOut();
 //            System.out.println("user is already inside and can see logout button");
 //        }
-    public void navigateLoginPage(){
-        if(loginPage.isLoginPageDisplayed()){
+    public void navigateLoginPage() {
+        try {
+            if (loginPage.isLoginPageDisplayed()) {
+                System.out.println("user is on login page");
 
-        }else{
-            loggedInUserCommonPage.clickLogOut();
+            } else {
+                loggedInUserCommonPage.clickLogOut();
+                System.out.println("log out btn is clicked");
+            }
+
         }
+        catch(Exception e){
+            e.printStackTrace();
+
+    }
+
 
     }
 
