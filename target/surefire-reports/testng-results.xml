@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="59311" started-at="2020-07-25T12:06:57Z" finished-at="2020-07-25T12:07:57Z">
+  <suite name="baseTest.BaseTest" duration-ms="2" started-at="2020-08-04T18:40:33Z" finished-at="2020-08-04T18:40:33Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.runner@7c16905e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="59311" started-at="2020-07-25T12:06:57Z" finished-at="2020-07-25T12:07:57Z">
-      <class name="testRunner.runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.runner@7c16905e]" name="setUpClass" is-config="true" duration-ms="422" started-at="2020-07-25T12:06:57Z" finished-at="2020-07-25T12:06:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.runner@7c16905e]" name="runScenario" duration-ms="58327" started-at="2020-07-25T12:06:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-25T12:07:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Best Seller By Quality_Successful_Edit_ProductName"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Edit tables"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.runner@7c16905e]" name="tearDownClass" is-config="true" duration-ms="406" started-at="2020-07-25T12:07:56Z" finished-at="2020-07-25T12:07:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.runner -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    <test name="Command line test" duration-ms="2" started-at="2020-08-04T18:40:33Z" finished-at="2020-08-04T18:40:33Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- baseTest.BaseTest -->
 </testng-results>

@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class SigninPage {
+public class LoginPage {
 
     public WebDriver ldriver;
 
-    public SigninPage(WebDriver rdriver) {
+    public LoginPage(WebDriver rdriver) {
         ldriver = rdriver;
         PageFactory.initElements(rdriver, this);
 

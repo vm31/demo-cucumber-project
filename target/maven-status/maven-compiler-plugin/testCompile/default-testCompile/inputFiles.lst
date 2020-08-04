@@ -1,3 +1,8 @@
-E:\demo-project\src\test\java\baseTest\BaseTest.java
-E:\demo-project\src\test\java\stepDefinition\Steps.java
-E:\demo-project\src\test\java\testRunner\runner.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/switchStep.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/EditStep.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/testRunner/runner.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/baseTest/BaseTest.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/CommonActions.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/loginStep.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/driverStep.java
+/home/middela/Azure_Repos/demo-cucumber-project/src/test/java/stepDefinition/catalogStep.java

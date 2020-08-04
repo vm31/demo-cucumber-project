@@ -14,14 +14,14 @@ public class loginStep extends BaseTest {
     @Given("I enter email address:  {string} and password: {string}")
     public void i_enter_email_address_as_and_password_as(String email, String pwd) {
 
-        signInPage.enterEmailId(email);
-        signInPage.enterPassword(pwd);
+        loginPageObj.enterEmailId(email);
+        loginPageObj.enterPassword(pwd);
 
     }
 
     @And("I click on login button")
     public void i_click_on_login() {
-        signInPage.ClickLogin();
+        loginPageObj.ClickLogin();
     }
 
     @Then("I verify if page title is: {string}")
@@ -38,12 +38,18 @@ public class loginStep extends BaseTest {
 
     @When("I click on logout link")
     public void i_click_on_logout_link() {
-        signInPage.clickLogOut();
+        loginPageObj.clickLogOut();
     }
     @Then("I verify if login page is displayed")
     public void iAmOnLoginPage() {
         Assert.assertEquals("Your store. Login", driver.getTitle());
 
 
+    }
+    @Given("user is on login page")
+    public void navigateToLoginPage(){
+        if(commonActionsObj.isLogoutBtnDisplayed()){
+            commonActionsObj.clickLogoutBtn();
+        }
     }
 }

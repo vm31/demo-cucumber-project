@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.046 s - in testRunner.runner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.387 s <<< FAILURE! - in testRunner.runner
+runScenario(testRunner.runner)  Time elapsed: 0.151 s  <<< FAILURE!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.IllegalStateException: The driver executable does not exist: /home/middela/Azure_Repos/demo-cucumber-project/E:/demo-project/libraries/chromedriver.exe
+

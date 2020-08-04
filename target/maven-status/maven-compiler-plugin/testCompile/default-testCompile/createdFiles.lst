@@ -1,2 +1,9 @@
-baseTest\BaseTest.class
-testRunner\runner.class
+stepDefinition/loginStep.class
+baseTest/BaseTest$1.class
+stepDefinition/EditStep.class
+stepDefinition/driverStep.class
+stepDefinition/catalogStep.class
+stepDefinition/CommonActions.class
+baseTest/BaseTest.class
+testRunner/runner.class
+stepDefinition/switchStep.class
