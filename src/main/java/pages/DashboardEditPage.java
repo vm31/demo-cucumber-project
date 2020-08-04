@@ -5,13 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SwitchPage {
-    public WebDriver ldriver;
+public class DashboardEditPage {
+    public WebDriver driver;
 
-    public SwitchPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
-
+    public DashboardEditPage(WebDriver driver) {
+        this.driver = driver;
     }
 
 

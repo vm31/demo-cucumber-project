@@ -1,14 +1,13 @@
-package stepDefinition;
+package steps;
 
-import baseTest.BaseTest;
+import base.BaseTest;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class catalogStep extends BaseTest {
+public class CatalogStep extends BaseTest {
 
     @Given("I select catalog menu item")
     public void iClickOnCatalogMenuItem() {

@@ -9,14 +9,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    public WebDriver ldriver;
+    public WebDriver driver;
 
-    public LoginPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;}
 
-    }
-
+    @FindBy(xpath = "//div[@class='returning-wrapper fieldset']//div/strong")
+    WebElement loginPageMsg;
 
     @FindBy(xpath = "//input[@id='Email']")
     WebElement emailBox;
@@ -27,14 +26,21 @@ public class LoginPage {
     @FindBy(xpath = "//input[@class='button-1 login-button']")
     WebElement logInBtn;
 
-    @FindBy(xpath = "//a[@href=\"/logout\"]")
-    WebElement logoutBtn;
+
 
 
 
 
 
     //action methods for successful login
+    public boolean isLoginPageDisplayed(){
+        return loginPageMsg.isDisplayed();
+    }
+    public String getLoginPageDisplayMsg(){
+        return loginPageMsg.getText();
+
+
+    }
     public void enterEmailId(String em) {
         emailBox.clear();
         emailBox.sendKeys(em);
@@ -49,9 +55,7 @@ public class LoginPage {
         logInBtn.click();
     }
 
-    public void clickLogOut() {
-        logoutBtn.click();
-    }
+
 
 
 

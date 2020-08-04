@@ -1,4 +1,4 @@
-package stepDefinition;
+package steps;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 
-public class driverStep {
+public class DriverStep {
     WebDriver driver;
 
     @When("I click on back button")

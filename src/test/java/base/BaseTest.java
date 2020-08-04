@@ -1,24 +1,24 @@
-package baseTest;
+package base;
 
 import helper.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.*;
-import stepDefinition.CommonActions;
 
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected HomePage homePage;
-    protected LoginPage loginPageObj;
+    protected LoginPage loginPage;
     public Utility utility;
     public static final WebDriver driver;
     protected ProductSearchPage productSearchPage;
     protected EditTablesPage editTablesPage;
-    protected SwitchPage switchPage;
+    protected DashboardEditPage dashboardEditPage;
     protected BestsellersByQuantityPage bestsellersByQuantityPage;
-    protected CommonActionsPage commonActionsObj;
+    protected LoggedInUserCommonPage loggedInUserCommonPage;
+
 
 
 
@@ -50,14 +50,13 @@ public class BaseTest {
 
     public BaseTest() {
         homePage= PageFactory.initElements(driver,HomePage.class);
-        loginPageObj= PageFactory.initElements(driver, LoginPage.class);
+        loginPage= PageFactory.initElements(driver, LoginPage.class);
         productSearchPage=PageFactory.initElements(driver, ProductSearchPage.class);
         utility=PageFactory.initElements(driver, Utility.class);
         editTablesPage=PageFactory.initElements(driver, EditTablesPage.class);
-        switchPage=PageFactory.initElements(driver, SwitchPage.class);
+        dashboardEditPage =PageFactory.initElements(driver, DashboardEditPage.class);
         bestsellersByQuantityPage=PageFactory.initElements(driver, BestsellersByQuantityPage.class);
-        commonActionsObj=PageFactory.initElements(driver, CommonActionsPage.class);
-
+        loggedInUserCommonPage=PageFactory.initElements(driver, LoggedInUserCommonPage.class);
     }
 
 

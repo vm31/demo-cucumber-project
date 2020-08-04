@@ -7,20 +7,13 @@ Feature: Edit tables
     When I navigate to dashboard
     Then I verify if page title is: "Dashboard / nopCommerce administration"
     Then I verify table Bestsellers by quantity is displayed
-    And I click on view button:<rownumber>
+    And I click on view button:16
     Then I verify if page title is: "Edit product details / nopCommerce administration"
     And I edit product name "<myinput>"
     And I click on Save Button
     Then I verify successful message
     Examples:
-      |myinput  |rownumber|
-      |mango|17|
+      |myinput  |
+      |mango|
 
 
-  Scenario Outline:
-    When I navigate to dashboard
-    Then I verify if page title is: "Dashboard / nopCommerce administration"
-    Then I verify table Bestsellers by quantity is displayed
-    And I select product :"Apple iCam",click on view button and verify text displayed
-  Examples:
-    |  |

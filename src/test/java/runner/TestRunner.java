@@ -1,13 +1,13 @@
-package testRunner;
+package runner;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features ="src/test/features/Switch.feature",
-        glue ="stepDefinition",
+@CucumberOptions(features ="src/test/features/DashboardEdit.feature",
+        glue = "steps",
         dryRun = false,
         monochrome = true,
         plugin = {"pretty","html:test-output"})
-public class runner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

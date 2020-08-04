@@ -7,11 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class HomePage {
-public WebDriver ldriver;
+    public WebDriver driver;
 
-    public HomePage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
+    public HomePage(WebDriver driver) {
+        this.driver = driver;
     }
 
 
@@ -28,6 +27,6 @@ public WebDriver ldriver;
         return HomePageText.isDisplayed();
     }
      public void getPageTitle(){
-        ldriver.getTitle();
+        driver.getTitle();
     }
 }
