@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DashboardEditPage {
+public class DashboardCommonStatisticsPage {
     public WebDriver driver;
 
-    public DashboardEditPage(WebDriver driver) {
+    public DashboardCommonStatisticsPage(WebDriver driver) {
         this.driver = driver;
     }
 

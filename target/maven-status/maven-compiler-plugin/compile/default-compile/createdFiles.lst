@@ -1,8 +1,4 @@
-pages/CommonActionsPage.class
-helper/Utility.class
-pages/ProductSearchPage.class
-pages/HomePage.class
-pages/EditTablesPage.class
-pages/BestsellersByQuantityPage.class
-pages/SwitchPage.class
-pages/LoginPage.class
+pages\CommonActionsPage.class
+helper\Utility.class
+pages\LoginPage.class
+pages\BestsellersByQuantityPage.class

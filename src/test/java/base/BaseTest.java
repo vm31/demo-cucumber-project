@@ -9,15 +9,13 @@ import pages.*;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    protected HomePage homePage;
-    protected LoginPage loginPage;
+    protected LoginPage loginPageObj;
     public Utility utility;
     public static final WebDriver driver;
-    protected ProductSearchPage productSearchPage;
-    protected EditTablesPage editTablesPage;
-    protected DashboardEditPage dashboardEditPage;
-    protected BestsellersByQuantityPage bestsellersByQuantityPage;
-    protected LoggedInUserCommonPage loggedInUserCommonPage;
+    protected CatalogMenuPage catalogMenuPageObj;
+    protected BestsellersByQuantityPage bestSellersByQuantityPageObj;
+    protected DashboardCommonStatisticsPage dashboardCommonStatisticsPageObj;
+    protected CommonActionsPage commonActionsPageObj;
 
 
 
@@ -27,7 +25,7 @@ public class BaseTest {
 
     static {
 
-//        System.setProperty("webdriver.chrome.driver","E://demo-project//libraries//chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver","E://demo-project//libraries//chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -50,14 +48,13 @@ public class BaseTest {
     
 
     public BaseTest() {
-        homePage= PageFactory.initElements(driver,HomePage.class);
-        loginPage= PageFactory.initElements(driver, LoginPage.class);
-        productSearchPage=PageFactory.initElements(driver, ProductSearchPage.class);
+        loginPageObj= PageFactory.initElements(driver, LoginPage.class);
+        catalogMenuPageObj=PageFactory.initElements(driver, CatalogMenuPage.class);
         utility=PageFactory.initElements(driver, Utility.class);
-        editTablesPage=PageFactory.initElements(driver, EditTablesPage.class);
-        dashboardEditPage =PageFactory.initElements(driver, DashboardEditPage.class);
-        bestsellersByQuantityPage=PageFactory.initElements(driver, BestsellersByQuantityPage.class);
-        loggedInUserCommonPage=PageFactory.initElements(driver, LoggedInUserCommonPage.class);
+        bestSellersByQuantityPageObj=PageFactory.initElements(driver, BestsellersByQuantityPage.class);
+        dashboardCommonStatisticsPageObj =PageFactory.initElements(driver, DashboardCommonStatisticsPage.class);
+        bestSellersByQuantityPageObj=PageFactory.initElements(driver, BestsellersByQuantityPage.class);
+        commonActionsPageObj=PageFactory.initElements(driver, CommonActionsPage.class);
     }
 
 

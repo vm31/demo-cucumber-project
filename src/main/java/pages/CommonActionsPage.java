@@ -8,10 +8,12 @@ public class CommonActionsPage {
     private WebElement logoutBtn;
 
     public boolean isLogoutBtnDisplayed() {
-        return logoutBtn.isDisplayed();
+        return
+                logoutBtn.isDisplayed();
     }
 
     public void clickLogoutBtn() {
+
         logoutBtn.click();
     }
 

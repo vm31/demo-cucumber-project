@@ -3,7 +3,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features ="src/test/features/DashboardEdit.feature",
+@CucumberOptions(features ="src/test/features/DashBoardCommonStatistics.feature",
         glue = "steps",
         dryRun = false,
         monochrome = true,

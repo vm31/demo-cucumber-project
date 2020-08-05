@@ -11,10 +11,10 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class ProductSearchPage {
+public class CatalogMenuPage {
     public WebDriver driver;
 
-    public ProductSearchPage(WebDriver driver) {
+    public CatalogMenuPage(WebDriver driver) {
         this.driver = driver;
 
     }

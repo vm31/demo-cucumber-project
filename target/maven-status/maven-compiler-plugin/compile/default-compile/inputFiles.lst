@@ -1,8 +1,6 @@
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/ProductSearchPage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/HomePage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/helper/Utility.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/LoginPage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/BestsellersByQuantityPage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/SwitchPage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/CommonActionsPage.java
-/home/middela/Azure_Repos/demo-cucumber-project/src/main/java/pages/EditTablesPage.java
+E:\demo-project\src\main\java\pages\CatalogMenuPage.java
+E:\demo-project\src\main\java\helper\Utility.java
+E:\demo-project\src\main\java\pages\LoginPage.java
+E:\demo-project\src\main\java\pages\BestsellersByQuantityPage.java
+E:\demo-project\src\main\java\pages\CommonActionsPage.java
+E:\demo-project\src\main\java\pages\DashboardCommonStatisticsPage.java

@@ -16,15 +16,12 @@ public class LoginStep extends BaseTest {
     @And("I enter email address:  {string} and password: {string}")
     public void i_enter_email_address_as_and_password_as(String email, String pwd) {
 
-        loginPage.enterEmailId(email);
-        loginPage.enterPassword(pwd);
+        loginPageObj.enterEmailId(email);
+        loginPageObj.enterPassword(pwd);
 
     }
 
-    @And("I click on login button")
-    public void i_click_on_login() {
-        loginPage.ClickLogin();
-    }
+
 
     @Then("I verify if page title is: {string}")
     public void page_title_should_be(String title) {
@@ -40,7 +37,7 @@ public class LoginStep extends BaseTest {
 
     @When("I click on logout link")
     public void i_click_on_logout_link() {
-        loggedInUserCommonPage.clickLogOut();
+        commonActionsPageObj.clickLogoutBtn();
     }
     @Then("I verify if login page is displayed")
     public void iAmOnLoginPage() {
@@ -57,9 +54,9 @@ public class LoginStep extends BaseTest {
             if(url.contains("ReturnUrl")){
                 System.out.println("user is on login page");
             }else{
-                loggedInUserCommonPage.clickLogOut();
+                commonActionsPageObj.clickLogoutBtn();
             }
-            Assert.assertTrue(loginPage.isLoginPageDisplayed());
+            Assert.assertTrue(loginPageObj.isLoginPageDisplayed());
 
     }
 
