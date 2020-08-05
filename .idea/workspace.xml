@@ -35,11 +35,6 @@
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: DashboardEdit (1)">
     <configuration name="Feature: DashboardEdit (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -179,6 +175,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,46 +206,50 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="236" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1596363519948" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1596567546914">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596611702273">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1596611702273" />
+    <state width="1807" height="343" key="GridCell.Tab.0.bottom" timestamp="1596567645165">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546914" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1596567546913">
+    <state width="1807" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
+    <state width="1807" height="343" key="GridCell.Tab.0.center" timestamp="1596567645165">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546913" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1596567546913">
+    <state width="1807" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
+    <state width="1807" height="343" key="GridCell.Tab.0.left" timestamp="1596567645165">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546913" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1596567546914">
+    <state width="1807" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
+    <state width="1807" height="343" key="GridCell.Tab.0.right" timestamp="1596567645165">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567546914" />
-    <state width="1807" height="343" key="GridCell.Tab.1.bottom" timestamp="1596567470614">
+    <state width="1807" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom" timestamp="1596567645166">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="1807" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470614" />
-    <state width="1807" height="343" key="GridCell.Tab.1.center" timestamp="1596567470613">
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
+    <state width="1807" height="343" key="GridCell.Tab.1.center" timestamp="1596567645166">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="1807" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
-    <state width="1807" height="343" key="GridCell.Tab.1.left" timestamp="1596567470613">
+    <state width="1807" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
+    <state width="1807" height="343" key="GridCell.Tab.1.left" timestamp="1596567645165">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="1807" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
-    <state width="1807" height="343" key="GridCell.Tab.1.right" timestamp="1596567470613">
+    <state width="1807" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
+    <state width="1807" height="343" key="GridCell.Tab.1.right" timestamp="1596567645166">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
-    <state width="1807" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567470613" />
+    <state width="1807" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
     <state x="624" y="313" width="728" height="478" key="MultipleFileMergeDialog" timestamp="1596566576639">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

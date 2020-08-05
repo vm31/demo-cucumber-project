@@ -7,6 +7,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.testng.Assert;
 
+import java.security.NoSuchAlgorithmException;
+import java.util.NoSuchElementException;
+
 public class LoginStep extends BaseTest {
 
 
@@ -58,7 +61,7 @@ public class LoginStep extends BaseTest {
 //            loggedInUserCommonPage.clickLogOut();
 //            System.out.println("user is already inside and can see logout button");
 //        }
-    public void navigateLoginPage() {
+    public void navigateLoginPage() throws NoSuchElementException {
         try {
             if (loginPage.isLoginPageDisplayed()) {
                 System.out.println("user is on login page");
