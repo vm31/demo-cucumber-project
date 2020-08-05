@@ -75,7 +75,7 @@ public class DashboardEditStep extends BaseTest {
         switch (box) {
             case "orders":
                 dashboardEditPage.clickOrdersBox();
-                Assert.assertEquals(title1, driver.getTitle());
+                Assert.assertTrue(driver.getTitle().contains(""));
                 break;
 
             case "Pending return requests":
