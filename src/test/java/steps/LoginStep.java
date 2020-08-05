@@ -51,35 +51,17 @@ public class LoginStep extends BaseTest {
 
 
     @Given("user is on login page")
-//    public void userIsOnLoginPage() {
-//        if (loginPage.isLoginPageDisplayed()){
-//            loginPage.getLoginPageDisplayMsg();
-//            System.out.println(loginPage.getLoginPageDisplayMsg());
-//            System.out.println("user is on signIn page");
-//        }else {
-//            loggedInUserCommonPage.isLogoutBtnDisplayed();
-//            loggedInUserCommonPage.clickLogOut();
-//            System.out.println("user is already inside and can see logout button");
-//        }
-    public void navigateLoginPage() throws NoSuchElementException {
-        try {
-            if (loginPage.isLoginPageDisplayed()) {
-                System.out.println("user is on login page");
+        public void returnToLoginPage() {
+        String url = driver.getCurrentUrl();
+        System.out.println("current page url is"+url);
+            if(url.contains("ReturnUrl")){
 
-            } else {
+            }else{
                 loggedInUserCommonPage.clickLogOut();
-                System.out.println("log out btn is clicked");
             }
 
-        }
-        catch(Exception e){
-            e.printStackTrace();
+            Assert.assertTrue(loginPage.isLoginPageDisplayed());
 
     }
-
-
-    }
-
-
 
 }

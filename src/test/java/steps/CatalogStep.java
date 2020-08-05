@@ -10,15 +10,13 @@ import org.testng.Assert;
 public class CatalogStep extends BaseTest {
 
     @Given("I select catalog menu item")
-    public void iClickOnCatalogMenuItem() {
-        utility.waitForElement(3000);
+    public void clickOnCatalogMenuItem() {
         productSearchPage.clickCatalog();
     }
 
 
     @When("I click on products button")
     public void iClickOnProductsButton() {
-        utility.waitForElement(2000);
         productSearchPage.clickOnProducts();
     }
 

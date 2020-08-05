@@ -14,17 +14,17 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
         this.driver = driver;}
 
-    @FindBy(xpath = "//div[@class='returning-wrapper fieldset']//div/strong")
-    WebElement loginPageMsg;
+    @FindBy(xpath = "//div[@class='title']/strong")
+    private WebElement loginPageMsg;
 
     @FindBy(xpath = "//input[@id='Email']")
-    WebElement emailBox;
+    private WebElement emailBox;
 
     @FindBy(xpath = "//input[@id='Password']")
-    WebElement pwdBox;
+    private WebElement pwdBox;
 
     @FindBy(xpath = "//input[@class='button-1 login-button']")
-    WebElement logInBtn;
+    private WebElement logInBtn;
 
 
 

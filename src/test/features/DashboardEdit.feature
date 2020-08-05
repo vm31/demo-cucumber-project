@@ -4,7 +4,7 @@ Feature: dashboard Common statistics
     And I enter email address:  "admin@yourstore.com" and password: "admin"
     And I click on login button
 
-  Scenario:Switching through dashboard Common statistics
+  Scenario:TC_01_Switching through dashboard Common statistics
     When I navigate to dashboard
 #    Then I verify if page title is: "Dashboard / nopCommerce administration"
 #    Then I verify if common statistics title is displayed
@@ -15,9 +15,9 @@ Feature: dashboard Common statistics
 #    Examples:
 #      | title1                           | title2                                       | title3                               | title14                                       |
 #    | Orders / nopCommerce administration| Return requests / nopCommerce administration|Customers / nopCommerce administration| Low stock / nopCommerce administration        |
-
-  Scenario: Switching through best seller by Quantity products
+#
+  Scenario: TC_02_Switching through best seller by Quantity products
     When I navigate to dashboard
-    Then I verify if page title is: "Dashboard / nopCommerce administration"
-    Then I verify table Bestsellers by quantity is displayed
-    And I click on view button:16 and verify page display header with product name
+##    Then I verify if page title is: "Dashboard / nopCommerce administration"
+##    Then I verify table Bestsellers by quantity is displayed
+##    And I click on view button:16 and verify page display header with product name

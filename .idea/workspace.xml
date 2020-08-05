@@ -35,6 +35,11 @@
   <component name="ChangeListManager">
     <list default="true" id="601899a1-e795-4a18-a19e-cf065332f213" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/Catalog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/Catalog.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CatalogStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CatalogStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +75,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: DashboardEdit (1)">
-    <configuration name="Feature: DashboardEdit (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Catalog" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/Catalog.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="demo-cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DashboardEdit" />
+      <option name="SUGGESTED_NAME" value="Feature: Catalog" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: DashboardEdit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: DashboardEdit (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="demo-project" />
+      <module name="demo-cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: DashboardEdit" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -128,6 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC_02_Switching through best seller by Quantity products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="demo-cucumber-project" />
+      <option name="NAME_FILTER" value="^TC_02_Switching through best seller by Quantity products$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^TC_02_Switching through best seller by Quantity products$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_02_Switching through best seller by Quantity products" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/DashboardEdit.feature" />
@@ -148,30 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: DashboardEdit (1)" />
+        <item itemvalue="Cucumber Java.Scenario: TC_02_Switching through best seller by Quantity products" />
+        <item itemvalue="Cucumber Java.Feature: Catalog" />
         <item itemvalue="Cucumber Java.Scenario: Switching through dashboard Common statistics" />
         <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: DashboardEdit" />
       </list>
     </recent_temporary>
   </component>
@@ -210,45 +218,53 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1596611702273" />
-    <state width="1807" height="343" key="GridCell.Tab.0.bottom" timestamp="1596567645165">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1596614577441">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614577441" />
     <state width="1807" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
-    <state width="1807" height="343" key="GridCell.Tab.0.center" timestamp="1596567645165">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1596614577441">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614577441" />
     <state width="1807" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
-    <state width="1807" height="343" key="GridCell.Tab.0.left" timestamp="1596567645165">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1596614577441">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614577441" />
     <state width="1807" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
-    <state width="1807" height="343" key="GridCell.Tab.0.right" timestamp="1596567645165">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1596614577441">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596465772636" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614577441" />
     <state width="1807" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
-    <state width="1807" height="343" key="GridCell.Tab.1.bottom" timestamp="1596567645166">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1596614530334">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614530334" />
     <state width="1807" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
-    <state width="1807" height="343" key="GridCell.Tab.1.center" timestamp="1596567645166">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1596614530334">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614530334" />
     <state width="1807" height="343" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
-    <state width="1807" height="343" key="GridCell.Tab.1.left" timestamp="1596567645165">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1596614530334">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614530334" />
     <state width="1807" height="343" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645165" />
-    <state width="1807" height="343" key="GridCell.Tab.1.right" timestamp="1596567645166">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1596614530334">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1596373878918" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596614530334" />
     <state width="1807" height="343" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596567645166" />
     <state x="624" y="313" width="728" height="478" key="MultipleFileMergeDialog" timestamp="1596566576639">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -283,9 +299,19 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/steps/LoginStep.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="9" />
+          <line>57</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginStep.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
