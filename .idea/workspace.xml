@@ -232,6 +232,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CommonActions.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DashboardEditStep.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +268,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: BestSellerByQuantity">
+  <component name="RunManager" selected="Cucumber Java.Feature: Login">
     <configuration name="Feature: BestSellerByQuantity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/BestSellerByQuantity.feature" />
@@ -365,10 +366,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: BestSellerByQuantity" />
         <item itemvalue="Cucumber Java.Feature: CatalogMenu" />
         <item itemvalue="Cucumber Java.Feature: DashBoardCommonStatistics" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: DashboardEdit" />
       </list>
     </recent_temporary>
