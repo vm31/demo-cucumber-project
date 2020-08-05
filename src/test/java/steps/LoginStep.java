@@ -55,11 +55,10 @@ public class LoginStep extends BaseTest {
         String url = driver.getCurrentUrl();
         System.out.println("current page url is"+url);
             if(url.contains("ReturnUrl")){
-
+                System.out.println("user is on login page");
             }else{
                 loggedInUserCommonPage.clickLogOut();
             }
-
             Assert.assertTrue(loginPage.isLoginPageDisplayed());
 
     }
