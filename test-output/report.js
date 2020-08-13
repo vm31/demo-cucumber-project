@@ -22,7 +22,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "name": "I verify common statistics boxes:\"Registered customers\" with title contains:\"\u003ctitle1\u003e\",\"\u003ctitle2\u003e\",\"\u003ctitle3\u003e\"\"\u003ctitle4\u003e\"",
+  "name": "I verify common statistics boxes:\"Registered customers\" withtitle contains:\"\u003ctitle1\u003e\",\"\u003ctitle2\u003e\",\"\u003ctitle3\u003e\"\"\u003ctitle4\u003e\"",
   "keyword": "And "
 });
 formatter.step({
@@ -68,11 +68,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter email address:  \"admin@yourstore.com\" and password: \"admin\"",
+  "name": "I enter email address and password",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStep.i_enter_email_address_as_and_password_as(String,String)"
+  "location": "LoginStep.i_enter_email_address_as_and_password_as()"
 });
 formatter.result({
   "status": "passed"
@@ -123,14 +123,12 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I verify common statistics boxes:\"Registered customers\" with title contains:\"Orders\",\"Return\",\"Customers\"\"Low stock\"",
+  "name": "I verify common statistics boxes:\"Registered customers\" withtitle contains:\"Orders\",\"Return\",\"Customers\"\"Low stock\"",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DashBoardCommonStatisticsStep.iSelectBoxAndVerifyPageTitleContains(String,String,String,String,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "I click on logout link",
@@ -140,6 +138,6 @@ formatter.match({
   "location": "LoginStep.i_click_on_logout_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });

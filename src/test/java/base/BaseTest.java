@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.*;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -16,11 +17,7 @@ public class BaseTest {
     protected BestsellersByQuantityPage bestSellersByQuantityPageObj;
     protected DashboardCommonStatisticsPage dashboardCommonStatisticsPageObj;
     protected CommonActionsPage commonActionsPageObj;
-
-
-
-
-
+    public Properties configprop;
 
 
     static {

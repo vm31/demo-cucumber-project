@@ -1,7 +1,7 @@
 Feature: Best seller By Quantity table
   Background:
     Given user is on login page
-    And I enter email address:  "admin@yourstore.com" and password: "admin"
+    And I enter email address and password
     And I click on login button
 
   Scenario Outline:TC_01_Best Seller By Quality_Successful_Edit_ProductName

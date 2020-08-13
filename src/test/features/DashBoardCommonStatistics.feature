@@ -1,7 +1,7 @@
 Feature: dashboard Common statistics
   Background:
     Given user is on login page
-    And I enter email address:  "admin@yourstore.com" and password: "admin"
+    And I enter email address and password
     And I click on login button
 
   Scenario Outline:TC_01_Verify common statistics boxes with page title

@@ -7,17 +7,22 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.testng.Assert;
 
-import java.security.NoSuchAlgorithmException;
-import java.util.NoSuchElementException;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 public class LoginStep extends BaseTest {
 
 
-    @And("I enter email address:  {string} and password: {string}")
-    public void i_enter_email_address_as_and_password_as(String email, String pwd) {
+    @And("I enter email address and password")
+    public void i_enter_email_address_as_and_password_as() throws IOException {
+        configprop = new Properties();
+        FileInputStream configPropfile = new FileInputStream("data.properties");
+        configprop.load(configPropfile);
 
-        loginPageObj.enterEmailId(email);
-        loginPageObj.enterPassword(pwd);
+        loginPageObj.enterEmailId(configprop.getProperty("email"));
+        loginPageObj.enterPassword(configprop.getProperty("password"));
 
     }
 

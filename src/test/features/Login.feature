@@ -1,7 +1,7 @@
 Feature:Positive flow test cases
    Background:
      Given user is on login page
-     And I enter email address:  "admin@yourstore.com" and password: "admin"
+     And I enter email address and password
      And I click on login button
 
   Scenario:TC_01_Successful logout
